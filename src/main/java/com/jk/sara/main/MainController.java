@@ -36,6 +36,8 @@ public class MainController extends CommonController {
         request.getSession().setAttribute("userSeq", userSeq);
 
         rsMap.put("userSeq", userSeq);
+        System.out.println("~~~~~~~~~~~~~~");
+        log.debug(">>>>> 로그인 성공");
         log.info(">>>>> 로그인 성공");
 
         return super.getResponse(rsMap);
