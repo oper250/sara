@@ -37,6 +37,8 @@ public class MainController extends CommonController {
 
         rsMap.put("userSeq", userSeq);
         System.out.println("~~~~~~~~~~~~~~");
+        log.trace(">>>>> 로그인 성공");
+        log.error(">>>>> 로그인 성공");
         log.debug(">>>>> 로그인 성공");
         log.info(">>>>> 로그인 성공");
 
